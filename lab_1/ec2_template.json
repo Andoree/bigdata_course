@@ -1,0 +1,37 @@
+{
+    "BlockDeviceMappings": [
+        {
+            "DeviceName": "/dev/sda1",
+            "Ebs": {
+                "DeleteOnTermination": true,
+                "VolumeSize": 40,
+                "VolumeType": "gp2",
+                "Encrypted": true
+            }
+        }
+    ],
+    "InstanceType": "t2.large",
+    "ImageId" : "ami-0817d428a6fb68645", 
+    "KeyName": "suhd_ec2_1",
+    "MaxCount": 1,
+    "MinCount": 1,
+    "Placement": {
+        "AvailabilityZone": "us-east-1b"
+    },
+    "SecurityGroupIds": [
+        "sg-05157462c762f5b46"
+    ],
+    "SubnetId": "subnet-0e14b968",
+
+    "TagSpecifications": [
+        {
+            "ResourceType": "instance",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "my_ec2_2"
+                }
+            ]
+        }
+    ]
+}
