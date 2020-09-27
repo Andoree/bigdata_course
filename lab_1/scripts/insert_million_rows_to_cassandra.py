@@ -10,23 +10,30 @@ def main():
     server_ip = args.server_ip
     num_rows = 1000000
     cluster = Cluster([server_ip, ], )
-    session = cluster.connect()
-
+    session = cluster.connect(None)
+    print("Connected!")
     session.execute(
         """
-        CREATE TABLE IF NOT EXISTS test(
+        CREATE KEYSPACE IF NOT EXISTS test
+        WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': '2' };
+        """
+    )
+    print("Succesfully created schema!")
+    session.execute(
+        """
+        CREATE TABLE IF NOT EXISTS test.test(
             id int PRIMARY KEY,    
-            name str
+            name text
         );
         """
     )
-
+    print("Succesfully created table!")
     user_lookup_stmt = session.prepare(
         """
-        INSERT INTO test (id, name,)
+        INSERT INTO test.test (id, name)
         VALUES (?, ?);
         """)
-
+    print("Created a statement")
     for i in range(num_rows):
         session.execute(user_lookup_stmt, [i, f"name_{i}"])
 
