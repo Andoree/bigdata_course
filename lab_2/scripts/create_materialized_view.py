@@ -14,7 +14,8 @@ def main():
         """
         CREATE MATERIALIZED VIEW task_4.task_4_mview 
         AS SELECT id, dept_name, name 
-        FROM task_4.task_4_table 
+        FROM task_4.task_4_table
+        WHERE name IS NOT NULL AND id IS NOT NULL
         PRIMARY KEY ((name), id);
         """
     )
