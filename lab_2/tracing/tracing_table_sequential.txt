@@ -1,0 +1,20 @@
+Запрос:
+SELECT * FROM task_4.task_4_table 
+WHERE name='Ivan'
+LIMIT 1
+ALLOW FILTERING;
+
+Execute CQL3 query | 2020-10-04 15:55:08.576000 |  3.235.13.167 |              0 | 3.227.247.17
+Parsing SELECT * FROM task_4.task_4_table \nWHERE name='Ivan'\nLIMIT 1\nALLOW FILTERING; [Native-Transport-Requests-1] | 2020-10-04 15:55:08.576000 |  3.235.13.167 |            286 | 3.227.247.17
+Preparing statement [Native-Transport-Requests-1] | 2020-10-04 15:55:08.576000 |  3.235.13.167 |            516 | 3.227.247.17
+Computing ranges to query [Native-Transport-Requests-1] | 2020-10-04 15:55:08.578000 |  3.235.13.167 |           2423 | 3.227.247.17
+Submitting range requests on 769 ranges with a concurrency of 1 (1143.45 rows per range expected) [Native-Transport-Requests-1] | 2020-10-04 15:55:08.581000 |  3.235.13.167 |           5401 | 3.227.247.17
+Enqueuing request to /34.234.234.51 [Native-Transport-Requests-1] | 2020-10-04 15:55:08.582000 |  3.235.13.167 |           6695 | 3.227.247.17
+Sending RANGE_SLICE message to /34.234.234.51 [MessagingService-Outgoing-/34.234.234.51-Small] | 2020-10-04 15:55:08.584000 |  3.235.13.167 |           8523 | 3.227.247.17
+Submitted 1 concurrent range requests [Native-Transport-Requests-1] | 2020-10-04 15:55:08.585000 |  3.235.13.167 |           8988 | 3.227.247.17
+REQUEST_RESPONSE message received from /34.234.234.51 [MessagingService-Incoming-/34.234.234.51] | 2020-10-04 15:55:08.594000 |  3.235.13.167 |          17988 | 3.227.247.17
+Processing response from /34.234.234.51 [RequestResponseStage-3] | 2020-10-04 15:55:08.594000 |  3.235.13.167 |          18619 | 3.227.247.17
+RANGE_SLICE message received from /3.235.13.167 [MessagingService-Incoming-/3.235.13.167] | 2020-10-04 15:55:08.600000 | 34.234.234.51 |            492 | 3.227.247.17
+Executing seq scan across 2 sstables for (min(-9223372036854775808), max(-8670295222916038239)] [ReadStage-3] | 2020-10-04 15:55:08.602000 | 34.234.234.51 |           1977 | 3.227.247.17
+Read 1 live rows and 0 tombstone cells [ReadStage-3] | 2020-10-04 15:55:08.604000 | 34.234.234.51 |           3932 | 3.227.247.17
+Request complete | 2020-10-04 15:55:08.595464 |  3.235.13.167 |          19464 | 3.227.247.17

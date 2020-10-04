@@ -1,0 +1,36 @@
+Запрос:
+SELECT * FROM task_4.task_4_table 
+WHERE id = 100 AND dept_name='HR'
+LIMIT 1;
+
+Execute CQL3 query | 2020-10-04 15:55:39.797000 |  3.235.13.167 |              0 | 3.227.247.17
+Parsing SELECT * FROM task_4.task_4_table \nWHERE id = 100 AND dept_name='HR'\nLIMIT 1; [Native-Transport-Requests-1] | 2020-10-04 15:55:39.797000 |  3.235.13.167 |            269 | 3.227.247.17
+Preparing statement [Native-Transport-Requests-1] | 2020-10-04 15:55:39.798000 |  3.235.13.167 |            912 | 3.227.247.17
+reading data from /35.170.54.161 [Native-Transport-Requests-1] | 2020-10-04 15:55:39.798000 |  3.235.13.167 |           1587 | 3.227.247.17
+speculating read retry on /3.235.13.167 [Native-Transport-Requests-1] | 2020-10-04 15:55:39.798000 |  3.235.13.167 |           1765 | 3.227.247.17
+Sending READ message to /35.170.54.161 [MessagingService-Outgoing-/35.170.54.161-Small] | 2020-10-04 15:55:39.799000 |  3.235.13.167 |           1953 | 3.227.247.17
+Sending READ message to /172.31.8.68 [MessagingService-Outgoing-/172.31.8.68-Small] | 2020-10-04 15:55:39.799000 |  3.235.13.167 |           2235 | 3.227.247.17
+READ message received from /3.235.13.167 [MessagingService-Incoming-/172.31.8.68] | 2020-10-04 15:55:39.799000 |  3.235.13.167 |           2658 | 3.227.247.17
+Executing single-partition query on task_4_table [ReadStage-3] | 2020-10-04 15:55:39.800000 |  3.235.13.167 |           3102 | 3.227.247.17
+Acquiring sstable references [ReadStage-3] | 2020-10-04 15:55:39.800000 |  3.235.13.167 |           3193 | 3.227.247.17
+Merging memtable contents [ReadStage-3] | 2020-10-04 15:55:39.800000 |  3.235.13.167 |           3278 | 3.227.247.17
+Bloom filter allows skipping sstable 3 [ReadStage-3] | 2020-10-04 15:55:39.800000 |  3.235.13.167 |           3398 | 3.227.247.17
+Partition index with 0 entries found for sstable 2 [ReadStage-3] | 2020-10-04 15:55:39.800000 |  3.235.13.167 |           3639 | 3.227.247.17
+Read 0 live rows and 0 tombstone cells [ReadStage-3] | 2020-10-04 15:55:39.801000 |  3.235.13.167 |           4044 | 3.227.247.17
+Enqueuing response to /3.235.13.167 [ReadStage-3] | 2020-10-04 15:55:39.801000 |  3.235.13.167 |           4118 | 3.227.247.17
+REQUEST_RESPONSE message received from /35.170.54.161 [MessagingService-Incoming-/35.170.54.161] | 2020-10-04 15:55:39.801000 |  3.235.13.167 |           4514 | 3.227.247.17
+Processing response from /35.170.54.161 [RequestResponseStage-4] | 2020-10-04 15:55:39.805000 |  3.235.13.167 |           8638 | 3.227.247.17
+Sending REQUEST_RESPONSE message to /172.31.8.68 [MessagingService-Outgoing-/172.31.8.68-Small] | 2020-10-04 15:55:39.806000 |  3.235.13.167 |           9181 | 3.227.247.17
+REQUEST_RESPONSE message received from /3.235.13.167 [MessagingService-Incoming-/172.31.8.68] | 2020-10-04 15:55:39.806000 |  3.235.13.167 |           9490 | 3.227.247.17
+Processing response from /3.235.13.167 [RequestResponseStage-2] | 2020-10-04 15:55:39.806000 |  3.235.13.167 |           9608 | 3.227.247.17
+Initiating read-repair [RequestResponseStage-2] | 2020-10-04 15:55:39.806000 |  3.235.13.167 |           9765 | 3.227.247.17
+READ message received from /3.235.13.167 [MessagingService-Incoming-/3.235.13.167] | 2020-10-04 15:55:39.815000 | 35.170.54.161 |             20 | 3.227.247.17
+Executing single-partition query on task_4_table [ReadStage-2] | 2020-10-04 15:55:39.815000 | 35.170.54.161 |            288 | 3.227.247.17
+Acquiring sstable references [ReadStage-2] | 2020-10-04 15:55:39.815000 | 35.170.54.161 |            407 | 3.227.247.17
+Merging memtable contents [ReadStage-2] | 2020-10-04 15:55:39.815000 | 35.170.54.161 |            479 | 3.227.247.17
+Bloom filter allows skipping sstable 3 [ReadStage-2] | 2020-10-04 15:55:39.815000 | 35.170.54.161 |            605 | 3.227.247.17
+Partition index with 0 entries found for sstable 2 [ReadStage-2] | 2020-10-04 15:55:39.816000 | 35.170.54.161 |            858 | 3.227.247.17
+Read 0 live rows and 0 tombstone cells [ReadStage-2] | 2020-10-04 15:55:39.816000 | 35.170.54.161 |           1290 | 3.227.247.17
+Enqueuing response to /3.235.13.167 [ReadStage-2] | 2020-10-04 15:55:39.816000 | 35.170.54.161 |           1371 | 3.227.247.17
+Sending REQUEST_RESPONSE message to /3.235.13.167 [MessagingService-Outgoing-/3.235.13.167-Small] | 2020-10-04 15:55:39.817000 | 35.170.54.161 |           1783 | 3.227.247.17
+Request complete | 2020-10-04 15:55:39.808814 |  3.235.13.167 |          11814 | 3.227.247.17

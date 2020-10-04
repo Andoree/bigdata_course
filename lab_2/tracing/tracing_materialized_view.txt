@@ -1,0 +1,31 @@
+Запрос:
+SELECT * FROM task_4.task_4_mview 
+WHERE name='Ivan'
+LIMIT 1;
+
+Execute CQL3 query | 2020-10-04 15:54:40.975000 |  3.235.13.167 |              0 | 3.227.247.17
+Parsing SELECT * FROM task_4.task_4_mview \nWHERE name='Ivan'\nLIMIT 1; [Native-Transport-Requests-1] | 2020-10-04 15:54:40.978000 |  3.235.13.167 |           3410 | 3.227.247.17
+Preparing statement [Native-Transport-Requests-1] | 2020-10-04 15:54:40.978000 |  3.235.13.167 |           3761 | 3.227.247.17
+Read-repair DC_LOCAL [Native-Transport-Requests-1] | 2020-10-04 15:54:40.979000 |  3.235.13.167 |           4350 | 3.227.247.17
+reading data from /35.170.54.161 [Native-Transport-Requests-1] | 2020-10-04 15:54:40.980000 |  3.235.13.167 |           4987 | 3.227.247.17
+Sending READ message to /35.170.54.161 [MessagingService-Outgoing-/35.170.54.161-Small] | 2020-10-04 15:54:40.980000 |  3.235.13.167 |           5341 | 3.227.247.17
+Executing single-partition query on task_4_mview [ReadStage-2] | 2020-10-04 15:54:40.981000 |  3.235.13.167 |           6619 | 3.227.247.17
+Acquiring sstable references [ReadStage-2] | 2020-10-04 15:54:40.981000 |  3.235.13.167 |           6705 | 3.227.247.17
+Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2020-10-04 15:54:40.981000 |  3.235.13.167 |           6871 | 3.227.247.17
+Partition index with 30 entries found for sstable 1 [ReadStage-2] | 2020-10-04 15:54:40.982000 |  3.235.13.167 |           7391 | 3.227.247.17
+Merged data from memtables and 1 sstables [ReadStage-2] | 2020-10-04 15:54:40.983000 |  3.235.13.167 |           8038 | 3.227.247.17
+Read 1 live rows and 0 tombstone cells [ReadStage-2] | 2020-10-04 15:54:40.983000 |  3.235.13.167 |           8173 | 3.227.247.17
+REQUEST_RESPONSE message received from /35.170.54.161 [MessagingService-Incoming-/35.170.54.161] | 2020-10-04 15:54:40.990000 |  3.235.13.167 |             37 | 3.227.247.17
+READ message received from /3.235.13.167 [MessagingService-Incoming-/3.235.13.167] | 2020-10-04 15:54:40.998000 | 35.170.54.161 |            371 | 3.227.247.17
+Executing single-partition query on task_4_mview [ReadStage-1] | 2020-10-04 15:54:41.001000 | 35.170.54.161 |           3042 | 3.227.247.17
+Acquiring sstable references [ReadStage-1] | 2020-10-04 15:54:41.001000 | 35.170.54.161 |           3150 | 3.227.247.17
+Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2020-10-04 15:54:41.001000 | 35.170.54.161 |           3368 | 3.227.247.17
+Partition index with 41 entries found for sstable 1 [ReadStage-1] | 2020-10-04 15:54:41.002000 | 35.170.54.161 |           3972 | 3.227.247.17
+Processing response from /35.170.54.161 [RequestResponseStage-2] | 2020-10-04 15:54:41.002000 |  3.235.13.167 |          11448 | 3.227.247.17
+Partition index with 8 entries found for sstable 2 [ReadStage-1] | 2020-10-04 15:54:41.002000 | 35.170.54.161 |           4572 | 3.227.247.17
+Initiating read-repair [RequestResponseStage-2] | 2020-10-04 15:54:41.002000 |  3.235.13.167 |          11628 | 3.227.247.17
+Merged data from memtables and 2 sstables [ReadStage-1] | 2020-10-04 15:54:41.003000 | 35.170.54.161 |           5162 | 3.227.247.17
+Read 1 live rows and 0 tombstone cells [ReadStage-1] | 2020-10-04 15:54:41.003000 | 35.170.54.161 |           5342 | 3.227.247.17
+Enqueuing response to /3.235.13.167 [ReadStage-1] | 2020-10-04 15:54:41.003000 | 35.170.54.161 |           5418 | 3.227.247.17
+Sending REQUEST_RESPONSE message to /3.235.13.167 [MessagingService-Outgoing-/3.235.13.167-Small] | 2020-10-04 15:54:41.004000 | 35.170.54.161 |           5710 | 3.227.247.17
+Request complete | 2020-10-04 15:54:40.984521 |  3.235.13.167 |           9521 | 3.227.247.17
