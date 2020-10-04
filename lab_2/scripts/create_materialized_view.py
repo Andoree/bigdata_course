@@ -16,7 +16,7 @@ def main():
         AS SELECT id, dept_name, name 
         FROM task_4.task_4_table
         WHERE name IS NOT NULL AND id IS NOT NULL
-        PRIMARY KEY ((name), id);
+        PRIMARY KEY ((name), id, dept_name);
         """
     )
     print("Successfully created materialized view!")
