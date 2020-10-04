@@ -41,10 +41,9 @@ def main():
         """)
     print("Created a statement")
     for i in range(num_rows):
-        id_value = i % 1000
         department = random.choice(DEPARTMENTS)
         name = random.choice(NAMES)
-        session.execute(user_lookup_stmt, [id_value, department, name])
+        session.execute(user_lookup_stmt, [i, department, name])
 
 
 if __name__ == '__main__':

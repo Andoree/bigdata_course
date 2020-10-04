@@ -15,7 +15,7 @@ def main():
         CREATE MATERIALIZED VIEW task_4.task_4_mview 
         AS SELECT id, dept_name, name 
         FROM task_4.task_4_table 
-        PRIMARY KEY ((name), dept_name);
+        PRIMARY KEY ((name), id);
         """
     )
     print("Successfully created materialized view!")
