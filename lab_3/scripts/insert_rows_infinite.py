@@ -29,7 +29,7 @@ def main():
     print("Succesfully created table!")
     user_lookup_stmt = session.prepare(
         """
-        INSERT INTO task_5.task_5.task_5_table (id, name)
+        INSERT INTO task_5.task_5_table (id, name)
         VALUES (?, ?);
         """)
     print("Created a statement")
