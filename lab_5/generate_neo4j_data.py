@@ -22,8 +22,8 @@ class Reference:
 def main():
     parser = ArgumentParser()
     parser.add_argument('--output_path', default="neo4j_scripts.txt")
-    parser.add_argument('--num_nodes', type=int, default=100)
-    parser.add_argument('--num_edges', type=int, default=50)
+    parser.add_argument('--num_nodes', type=int, default=30)
+    parser.add_argument('--num_edges', type=int, default=200)
     args = parser.parse_args()
 
     num_nodes = args.num_nodes

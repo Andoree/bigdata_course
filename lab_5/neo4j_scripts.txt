@@ -3,298 +3,828 @@ CREATE (a: Article {domain: 'physics', name: 'physics_article_1'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_2'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_3'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_4'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_5'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_6'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_7'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_8'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_9'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_10'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_11'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_12'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_13'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_14'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_5'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_6'});
+CREATE (a: Article {domain: 'biology', name: 'biology_article_7'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_8'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_9'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_10'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_11'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_12'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_13'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_14'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_15'});
 CREATE (a: Article {domain: 'biology', name: 'biology_article_16'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_17'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_18'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_18'});
 CREATE (a: Article {domain: 'physics', name: 'physics_article_19'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_20'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_21'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_22'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_20'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_21'});
+CREATE (a: Article {domain: 'biology', name: 'biology_article_22'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_23'});
 CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_24'});
 CREATE (a: Article {domain: 'physics', name: 'physics_article_25'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_26'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_27'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_28'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_29'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_30'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_31'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_32'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_33'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_34'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_35'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_36'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_37'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_38'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_39'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_40'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_41'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_42'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_43'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_44'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_45'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_46'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_47'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_48'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_49'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_50'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_51'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_52'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_53'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_54'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_55'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_56'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_57'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_58'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_59'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_60'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_61'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_62'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_63'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_64'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_65'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_66'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_67'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_68'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_69'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_70'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_71'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_72'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_73'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_74'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_75'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_76'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_77'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_78'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_79'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_80'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_81'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_82'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_83'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_84'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_85'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_86'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_87'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_88'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_89'});
-CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_90'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_91'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_92'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_93'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_94'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_95'});
-CREATE (a: Article {domain: 'biology', name: 'biology_article_96'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_97'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_98'});
-CREATE (a: Article {domain: 'physics', name: 'physics_article_99'});
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_85' AND b.name = 'physics_article_75'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_9' AND b.name = 'physics_article_18'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_85' AND b.name = 'biology_article_77'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_58' AND b.name = 'biology_article_29'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_63' AND b.name = 'mathematics_article_90'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_89' AND b.name = 'biology_article_21'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_44' AND b.name = 'mathematics_article_12'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_94' AND b.name = 'mathematics_article_31'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_39' AND b.name = 'mathematics_article_58'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_93' AND b.name = 'physics_article_75'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_85' AND b.name = 'biology_article_61'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_51' AND b.name = 'mathematics_article_2'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_92' AND b.name = 'physics_article_63'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_51' AND b.name = 'mathematics_article_86'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_90' AND b.name = 'physics_article_63'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_47' AND b.name = 'physics_article_46'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_3' AND b.name = 'mathematics_article_17'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_81' AND b.name = 'mathematics_article_2'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_58' AND b.name = 'mathematics_article_31'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_61' AND b.name = 'mathematics_article_17'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_98' AND b.name = 'biology_article_11'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_30' AND b.name = 'physics_article_62'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_5' AND b.name = 'physics_article_47'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_52' AND b.name = 'biology_article_93'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_90' AND b.name = 'physics_article_78'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
-MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_68' AND b.name = 'mathematics_article_36'
-CREATE (a)-[r:Reference]->(b)
-RETURN r;
+CREATE (a: Article {domain: 'physics', name: 'physics_article_26'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_27'});
+CREATE (a: Article {domain: 'physics', name: 'physics_article_28'});
+CREATE (a: Article {domain: 'mathematics', name: 'mathematics_article_29'});
 MATCH (a:Article),(b:Article)
 WHERE a.name = 'physics_article_19' AND b.name = 'mathematics_article_3'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_85' AND b.name = 'physics_article_52'
+WHERE a.name = 'mathematics_article_6' AND b.name = 'mathematics_article_2'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_85' AND b.name = 'mathematics_article_3'
+WHERE a.name = 'physics_article_28' AND b.name = 'mathematics_article_24'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_0' AND b.name = 'biology_article_61'
+WHERE a.name = 'mathematics_article_13' AND b.name = 'biology_article_22'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_59' AND b.name = 'biology_article_29'
+WHERE a.name = 'physics_article_12' AND b.name = 'mathematics_article_6'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_4' AND b.name = 'physics_article_51'
+WHERE a.name = 'mathematics_article_13' AND b.name = 'mathematics_article_14'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_95' AND b.name = 'mathematics_article_2'
+WHERE a.name = 'biology_article_16' AND b.name = 'mathematics_article_17'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_90' AND b.name = 'physics_article_47'
+WHERE a.name = 'physics_article_8' AND b.name = 'mathematics_article_5'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_92' AND b.name = 'physics_article_97'
+WHERE a.name = 'physics_article_25' AND b.name = 'biology_article_16'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_27' AND b.name = 'biology_article_69'
+WHERE a.name = 'mathematics_article_6' AND b.name = 'mathematics_article_15'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_9' AND b.name = 'physics_article_75'
+WHERE a.name = 'physics_article_19' AND b.name = 'physics_article_8'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_29' AND b.name = 'physics_article_62'
+WHERE a.name = 'mathematics_article_5' AND b.name = 'physics_article_1'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_69' AND b.name = 'biology_article_95'
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_0'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_28' AND b.name = 'physics_article_6'
+WHERE a.name = 'physics_article_9' AND b.name = 'mathematics_article_6'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_88' AND b.name = 'biology_article_69'
+WHERE a.name = 'mathematics_article_4' AND b.name = 'mathematics_article_13'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_62' AND b.name = 'biology_article_32'
+WHERE a.name = 'physics_article_8' AND b.name = 'mathematics_article_21'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_93' AND b.name = 'physics_article_99'
+WHERE a.name = 'mathematics_article_24' AND b.name = 'mathematics_article_6'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'biology_article_41' AND b.name = 'physics_article_85'
+WHERE a.name = 'mathematics_article_2' AND b.name = 'mathematics_article_14'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_65' AND b.name = 'biology_article_55'
+WHERE a.name = 'mathematics_article_3' AND b.name = 'mathematics_article_4'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_30' AND b.name = 'biology_article_27'
+WHERE a.name = 'physics_article_11' AND b.name = 'physics_article_26'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_35' AND b.name = 'physics_article_53'
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_14'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_59' AND b.name = 'biology_article_94'
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_4'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'mathematics_article_22' AND b.name = 'physics_article_14'
+WHERE a.name = 'mathematics_article_4' AND b.name = 'mathematics_article_23'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
 MATCH (a:Article),(b:Article)
-WHERE a.name = 'physics_article_30' AND b.name = 'physics_article_80'
+WHERE a.name = 'mathematics_article_15' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_15' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_19' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_3' AND b.name = 'physics_article_12'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'mathematics_article_14'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_10' AND b.name = 'mathematics_article_29'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'mathematics_article_4'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_24'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_2'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'mathematics_article_14'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'physics_article_20'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'biology_article_7'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'mathematics_article_14'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_0' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_12' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'mathematics_article_24'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'mathematics_article_4'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'mathematics_article_23'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'physics_article_12'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_16' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_6' AND b.name = 'mathematics_article_13'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_10' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_26' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'mathematics_article_24'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'physics_article_9'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_3'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_15'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_10' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'biology_article_7'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_24'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_13' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'physics_article_20'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'mathematics_article_18'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_11' AND b.name = 'mathematics_article_23'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'physics_article_19'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_1' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_13' AND b.name = 'physics_article_11'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'mathematics_article_15'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_2' AND b.name = 'physics_article_19'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_26' AND b.name = 'mathematics_article_14'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_22' AND b.name = 'physics_article_20'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_19' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_0' AND b.name = 'mathematics_article_15'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'mathematics_article_14'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_6' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_3'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_3'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'biology_article_7'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_10' AND b.name = 'mathematics_article_5'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_6' AND b.name = 'mathematics_article_13'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_15' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_12' AND b.name = 'physics_article_20'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_16' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_6' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_0' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_1' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_0' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_2' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'physics_article_8'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_26' AND b.name = 'physics_article_8'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_12' AND b.name = 'mathematics_article_13'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_1' AND b.name = 'physics_article_12'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'physics_article_20'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'mathematics_article_2'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'mathematics_article_2'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'biology_article_7'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_18' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_9' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'mathematics_article_24'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'mathematics_article_29'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_1' AND b.name = 'mathematics_article_23'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'physics_article_11'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_12' AND b.name = 'mathematics_article_5'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_24' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'biology_article_16'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_26' AND b.name = 'mathematics_article_15'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_3' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'physics_article_26'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_0' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_15' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'physics_article_8'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_1' AND b.name = 'mathematics_article_3'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'mathematics_article_18'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_25'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_12'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_22' AND b.name = 'mathematics_article_29'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_25' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'mathematics_article_18'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'mathematics_article_5'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'physics_article_9'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_28' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_27' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_7' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'physics_article_10'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_23' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_10' AND b.name = 'mathematics_article_13'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'physics_article_9'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_11' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'physics_article_11'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_16' AND b.name = 'mathematics_article_4'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_20' AND b.name = 'physics_article_27'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_19' AND b.name = 'physics_article_8'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_8' AND b.name = 'mathematics_article_0'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_22' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_2' AND b.name = 'biology_article_7'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_14' AND b.name = 'mathematics_article_17'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_11' AND b.name = 'physics_article_1'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_12' AND b.name = 'physics_article_28'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'physics_article_11' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_4' AND b.name = 'mathematics_article_6'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_29' AND b.name = 'mathematics_article_15'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_15' AND b.name = 'mathematics_article_21'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_17' AND b.name = 'mathematics_article_18'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'biology_article_16' AND b.name = 'mathematics_article_2'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_5' AND b.name = 'biology_article_22'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_21' AND b.name = 'mathematics_article_5'
+CREATE (a)-[r:Reference]->(b)
+RETURN r;
+MATCH (a:Article),(b:Article)
+WHERE a.name = 'mathematics_article_2' AND b.name = 'physics_article_20'
 CREATE (a)-[r:Reference]->(b)
 RETURN r;
