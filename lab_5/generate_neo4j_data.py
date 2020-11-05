@@ -48,14 +48,14 @@ def main():
     with open(output_path, 'w+', ) as output_file:
         for article in articles_list:
             output_file.write(
-                f"CREATE (a: Article {{domain: '{article.domain}', name: '{article.name}'}})\n")
+                f"CREATE (a: Article {{domain: '{article.domain}', name: '{article.name}'}});\n")
         for reference in references_list:
             source_article = reference.source
             target_article = reference.target
             output_file.write("MATCH (a:Article),(b:Article)\n")
-            output_file.write(f"a.name = {source_article.name} AND b.name = {target_article.name}\n")
+            output_file.write(f"WHERE a.name = '{source_article.name}' AND b.name = '{target_article.name}'\n")
             output_file.write("CREATE (a)-[r:Reference]->(b)\n")
-            output_file.write("RETURN r")
+            output_file.write("RETURN r;\n")
 
 
 if __name__ == '__main__':
