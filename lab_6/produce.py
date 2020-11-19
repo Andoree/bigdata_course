@@ -7,7 +7,7 @@ import pika
 def main():
     parser = ArgumentParser()
     parser.add_argument('--host', )
-    parser.add_argument('--num_messages', type=int, default=10000)
+    parser.add_argument('--num_messages', type=int, default=10000000)
     args = parser.parse_args()
 
     host = args.host
@@ -20,7 +20,7 @@ def main():
     channel = conn_broker.channel()
     channel.exchange_declare(exchange="rabbit_task", exchange_type="topic",
                              passive=False, durable=True, auto_delete=False)
-    message_properties = pika.BasicProperties()
+    message_properties = pika.BasicProperties(delivery_mode=2)
     message_properties.content_type = "text/plain"
     for i in range(num_messages):
         message = f"Message_{i}"
