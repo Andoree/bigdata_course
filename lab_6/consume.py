@@ -24,7 +24,7 @@ def main():
                              passive=False, durable=True, auto_delete=False)
     channel.queue_declare(queue="some_queue")
     channel.queue_bind(queue="some_queue", exchange="rabbit_task", routing_key="rabbit")
-    channel.basic_consume(consume_message, queue="some_queue", consumer_tag="consumer_tag")
+    channel.basic_consume(queue="some_queue", consumer_tag="consumer_tag")
     channel.start_consuming()
 
 
