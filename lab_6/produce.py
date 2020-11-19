@@ -3,15 +3,11 @@ from argparse import ArgumentParser
 import pika
 
 
-def consume_message(channel, method, header, body):
-    channel.basic_ack(method.delivery_tag)
-    print(body)
-
 
 def main():
     parser = ArgumentParser()
     parser.add_argument('--host', )
-    parser.add_argument('--num_messages', type=int)
+    parser.add_argument('--num_messages', type=int, default=1000000)
     args = parser.parse_args()
 
     host = args.host
