@@ -20,7 +20,7 @@ def main():
     channel = conn_broker.channel()
     channel.exchange_declare(exchange="rabbit_task", exchange_type="topic",
                              passive=False, durable=True, auto_delete=False)
-    message_properties = pika.BasicProperties(delivery_mode=2)
+    message_properties = pika.BasicProperties()
     message_properties.content_type = "text/plain"
     for i in range(num_messages):
         message = f"Message_{i}"
