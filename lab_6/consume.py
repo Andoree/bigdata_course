@@ -15,7 +15,7 @@ def main():
 
     host = args.host
 
-    credentials = pika.PlainCredentials("guest", "guest")
+    credentials = pika.PlainCredentials("user", "user")
     conn_params = pika.ConnectionParameters(host, credentials=credentials)
     conn_broker = pika.BlockingConnection(conn_params)
 
